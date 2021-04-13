@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  line-height: 1.6;
+}
+
+body {
+  background: #004b93;
+  direction: rtl;
+  padding: 1.5rem;
+  font-family: yekan;
+}
+
+.alinland-update-area {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.alinland-update-area img {
+  width: 230px;
+  margin-bottom: 40px;
+}
+
+.alinland-update-area p {
+  max-width: 700px;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.social-media-items {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.social-media-item {
+  display: inline-flex;
+  margin: 5px;
+}
+
+.social-media-item:hover {
+  background: rgba(0, 130, 253, 0.5);
+}
+
+.social-media-item a {
+  text-decoration: none;
+  text-decoration: none;
+  padding: 10px 25px;
+  font-size: 1.6rem;
+  color: #fff;
+  border-radius: 3px;
+  background: rgba(0, 130, 253, 0.3);
+}
